@@ -1,0 +1,289 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: monospace;
+  background-color: #fafafa;
+    height: 4000px;
+}
+
+header{
+  margin: 0;
+  padding: 2em;
+  position: fixed;
+  width: 15%;
+  background-color: white;
+  height: 100vh;
+    z-index: 1;
+}
+
+#container{
+ position: relative;
+    top: 0%;
+    left: 0;
+    width: 400%;
+    height: 100vh;
+    display:flex;
+    
+}
+
+.logo{
+    
+    display: block;
+    width: 100%;
+  
+        
+}
+
+
+/*
+.logo{
+  text-transform: uppercase;
+  font-family: nunito sans;
+  font-size: 2em;
+}
+.logoEm{
+    
+    font-size: 0.75em;
+} */
+
+.menu{
+  padding: 0;
+  list-style: none;
+   
+}
+
+.menu li {
+  padding: 0.2em;
+  text-transform: uppercase;
+     font-family: nunito sans;
+}
+
+.menu li a{
+  color: red;
+    font-size: 10px;
+}
+
+.above{
+  position: relative;
+  margin: 4em 0;
+}
+
+.below{
+  position: absolute;
+  bottom: 4em;
+}
+
+.below li{
+  padding: 0.5em;
+}
+
+footer{
+  position: fixed;
+  width: 50%;
+  height: 5em;
+  bottom: 3em;
+  top: 5%;
+    right: -20%;
+    
+}
+
+.grid-container{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 5em 5em 5em 5em 5em 5em;
+  grid-column-gap: 0.5em;
+}
+
+.grid-item{
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+}
+
+.grid-item img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-button{
+    position: fixed;
+    bottom: 40px;
+    left: 95%;
+    margin-left: -104.5px;
+    background-color: black;
+    text-decoration:none;
+    border: none;
+    color:white;
+    padding: 10px  20px;
+    font-family: pt mono;
+    font size:16px;
+}
+
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left:25%;
+    
+}
+.title{
+    position: absolute;
+    left: 68%;
+    top:35%;
+    font-family:monospace:
+}
+.caption{
+    position: absolute;
+    left: 68%;
+    top:40%;
+    font-family:monospace;
+    color: white;
+    background-color: black;
+    }
+.author{
+    position: absolute;
+    left: 68%;
+    top:42%;
+    font-family:monospace:
+}
+.more{
+    position: absolute;
+    left: 68%;
+    top:50%;
+    font-family:monospace:
+}
+.articlecaption{
+    position: absolute;
+    width: 400px;
+    left:  20%;
+    top: 70%;
+    font-family: nunito sans;
+    font-size: 10px;
+}
+.articletitle{
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    font-family: nunito sans;
+    font-size: 40px;
+}
+.articletext{
+    position: absolute;
+    width: 250px;
+    left: 68%;
+    top: 17%;
+    font-family: nunito sans;
+    font-size: 12px;
+}
+.column{
+    column-count: 3;
+    /*padding: 0.1em;*/
+    width: 80%;
+    font-family: nunito sans;
+    column-gap: 20px;
+    font-size: 12px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+    
+}
+p{
+    position: relative;
+    left: 30%;
+    top: 20%;
+    font-family: nunito sans;
+    font-size: 12px;
+}
+tr { 
+    vertical-align: top;}
+a:visited{
+    color: white;
+}
+.fheart{
+    position: fixed;
+    width: 1%;
+    height: 2%;
+    bottom: 5%;
+    left: 50%;
+}
+
+.vimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left:25%;
+}
+.vtitle{ 
+    position: absolute;
+    left: 68%;
+    top:20%;
+    font-family:monospace:
+    
+}
+
+.vcaption{
+    position: absolute;
+    left: 68%;
+    top:25%;
+    font-family:monospace;
+    color: white;
+    background-color: black;
+}
+.vtext{
+    position: absolute;
+    width: 250px;
+    left: 68%;
+    top: 30%;
+    font-family: nunito sans;
+    font-size: 12px;
+}
+.theart{
+     position: fixed;
+    width: 1%;
+    height: 2%;
+    bottom: 0.1%;
+    left: 49.5%;
+   
+}
+.article{
+    position: absolute;
+    left: -4em;
+    transform: rotate(-90deg);
+    padding-right: 2em;
+    font: nunito sans;
+}
+
+/*
+.current{
+    position: fixed;
+    height: 12%;
+    width: 6%;
+    left:5%;
+}
+.current img{
+    
+}
+.next{
+    position: fixed;
+    height: 12%;
+    width: 6%
+    right:5%;
+}*/
